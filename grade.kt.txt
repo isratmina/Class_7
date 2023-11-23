@@ -1,0 +1,21 @@
+fun main() {
+    val marks = 100
+    val grade: String
+    grade = if(marks >= 91)
+        "A+"
+    else if(marks >= 81)
+        "A"
+    else if(marks >= 71)
+        "B+"
+    else if(marks >= 61)
+        "B"
+    else if(marks >= 51)
+        "C+"
+    else if(marks >= 41)
+        "C"
+    else if(marks >= 33)
+        "D"
+    else
+        "F"
+    println("My grade is: ${grade}")
+}
